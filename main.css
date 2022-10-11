@@ -1,0 +1,194 @@
+hr {
+    border: 1px solid gray;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 30px;
+}
+
+h4 {
+    margin-bottom: 30px;
+    color: #7c7c5d;
+}
+
+.space {
+    margin: 30px;
+}
+
+.recipe_title_style {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    color: #7c7c5d;
+}
+
+body { 
+    background-color: #aec1e6;
+}
+
+/* p { 
+   text-align: center;
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+} */
+
+img[print]{
+    color: #6c757d ;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #6c757d;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+    ;
+}
+img[facebook] {
+    color: #153f91 ;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #153f91;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+    border-style: none;
+}
+img[twitter]{
+    color: #17a2b8;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #17a2b8;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+    border-style: none;
+}
+img [pinterest]{
+    color: #dc3545;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid #dc3545;
+    border-radius: 8px;
+    width: 40px;
+    text-align: center;
+    border-style: none;
+}
+
+ul li { 
+    display: inline-block;
+    text-align: center;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* div { 
+    display: inline;
+    text-align: center;
+} */
+
+.shadow {
+    box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 10px 22px -10px rgba(0, 0, 0, 0.75);
+}
+
+.footer-badge {
+    padding-top: 25px;
+    text-align: center;
+    background-color: #7c7c5d;
+    width: 170px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+
+.footer-containter {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #ffffff;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
+.card{
+  margin:10px;
+}
+
+.card-body{
+  margin-top: 10px;
+}
+
+.photo {
+    background-image: url(img/recipe.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 1070px;
+}
+
+h4 {
+    margin-bottom: 30px;
+    color: #7c7c5d;
+}
+
+.space {
+    margin: 30px;
+}
+
+.recipe_title_style {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    color: #7c7c5d;
+}

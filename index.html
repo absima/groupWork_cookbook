@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="main.css" />
+    <title>Cookbook</title>
+    
+  </head>
+  <body>
+    <header class="container">
+      <!-- Julio Section -->
+      <nav
+        class="navbar navbar-expand-md navbar-dark fixed-top"
+        style="background-color: #7c7c5d"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Cookbook</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rezepte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="container bg-white">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 photo" id="animImg"></div>
+          <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div class="space d-flex align-content-center flex-column">
+              <h1 class="text-center recipe_title_style">Kaiserschmarrn</h1>
+              <h4 class="text-center">Zutaten</h4>
+              <ol>
+                <li>20g Mehl</li>
+                <li>1 Prise Salz</li>
+                <li>4 Eier</li>
+                <li>4 EL Wiener Bio Kristallzucker</li>
+                <li>¼ l Milch</li>
+                <li>1 EL Wiener Backzucker</li>
+                <li>8g Rosinen</li>
+                <li>etwas Rum</li>
+                <li>Butter zum Backen</li>
+                <li>Wiener Staubzucker zum Karamellisieren</li>
+                <li>Wiener Streuzucker zum Bestreuen</li>
+              </ol>
+            </div>
+            <hr>
+            <div class="space d-flex align-content-center flex-column">
+              <h4 class="text-center">Zubereitung</h4>
+              <p>Mehl, Salz, Dotter, Wiener Feinkristallzucker und so viel kalte Milch, dass ein geschmeidiger Teig
+                entsteht, werden in einer Schüssel verrührt und der mit Wiener Backzucker steif geschlagene Eischnee
+                wird
+                untergehoben.</p>
+              <p>In einer Pfanne wird Butter erhitzt, die Teigmasse eingefüllt, die mit Rum befeuchteten Rosinen
+                werden
+                darüber gestreut, und der Schmarren wird von beiden Seiten zu goldbrauner Farbe gebacken. Mit zwei
+                Gabeln zerreißt
+                man dann den Teig in nicht zu kleine Stücke und lässt ihn – mit etwas Wiener Staubzucker bestreut –
+                noch so lange am
+                Herd, bis er völlig ausgebacken ist und die Teigteile leicht karamellisiert sind.</p>
+              <p>Locker auf vorgewärmten Tellern anrichten, stark mit Wiener Streuzucker bestreuen und mit
+                Zwetschkenröster
+                als Beilage servieren.</p>
+            </div>
+          </div>
+        </div>
+      <div>
+        <!-- Samin's code -->
+  <section class="container share d-print-none">
+      <div class="text-center">
+        <p style="margin-top: 35px" class="recipe_title_style">Dieses Rezept teilen oder drucken</p>
+          <ul class="list-inline" style="margin-right: 40px">
+              <li class="list-inline-item">
+                <a id="share-print" href="javascript: window.print();">
+                  <i class="bi bi-printer"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a id="share-facebook" href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a id="share-twitter" href="#">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+              </li>
+              <li class="list-inline-item">
+                  <a id="share-pinterest" href="#">
+                    <i class="bi bi-pinterest"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </section>
+
+      
+  <div class="container text-center">
+    <!-- Sima's code -->
+      <div class="row">
+        <h2 class="moreRecepies" style="color: #7c7c5d"> Mehr Rezepte </h2>
+      </div>
+
+      <div class="row mt-5">
+        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/9/f/csm_Cakepops_Wasichalleskann_546b0d00f8.jpg" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Cake-Pops </a> </h4>  
+                    
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/8/3/csm_Geschichtetes-Dessert-Baiserkranz_Trizeps_CM02_2018_ce77052ca5.jpg" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Geschichtetes Dessert </a> </h4> 
+                    
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/5/b/csm_Linzertorte_Ausschnitt_CM02-2016_fb83a01261.png" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Moderne Linzertorte </a> </h4> 
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>                                             
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/6/a/csm_Trockenblumen_Catrin_2020_Kekse_3_35bc89b59a.jpg" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Kokos-Mürbteigkekse </a> </h4> 
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>                                             
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/c/c/csm_Cake_am_Stiel_Tuende_HU_0668dbc113.gif" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Cheesecake am Stiel </a> </h4>   
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>                                           
+                  </div>
+
+                
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow">
+                  <div>
+                    <img src="https://www.wiener-zucker.at/fileadmin/_processed_/7/b/csm_Fruehling_Obsttorte_mit_Vanillecreme_Soulsistakitchen_2021_2K6A0826_0357bcd370.jpg" class="img-fluid" alt="...">
+                  </div>
+
+                  <div class="card-body"> 
+                    <h4 class="recipeTitle"> <a href="#"> Obsttorte </a> </h4>  
+                    <p>
+                      <a href="#">
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </a>
+                    </p>                                            
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
+                              
+          </div>
+        </div>
+      </div>
+    </div> 
+    <section class="d-flex justify-content-center">
+      <div class="footer-containter">
+        <span class="footer-badge">&copy; Cookbook 2022 &hearts;</span>
+      </div>
+    </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
